@@ -76,7 +76,8 @@ ul {
 .form-control {
     height: 50px;
     color: #0da9ce;
-    border: 1px solid #ebebeb;
+    /* border: 1px solid #ebebeb; */
+    border: 1px solid #0da9ce;
     background-color: transparent;
     border-radius: 0;
     font-size: 16px;
@@ -1765,23 +1766,23 @@ textarea.form-control {
 }
 
 .our-services-area.our-service-area-three .single-services.bg-1 {
-    background-image: url(https://tiempo.hn/wp-content/uploads/2016/11/adunas-2.jpg)
+    background-image: url(../img/aduanas/servicio1.jpg)
 }
 
 .our-services-area.our-service-area-three .single-services.bg-2 {
-    background-image: url(https://tiempo.hn/wp-content/uploads/2016/11/adunas-2.jpg)
+    background-image: url(../img/aduanas/servicio2.jpg)
 }
 
 .our-services-area.our-service-area-three .single-services.bg-3 {
-    background-image: url(https://tiempo.hn/wp-content/uploads/2016/11/adunas-2.jpg)
+    background-image: url(../img/aduanas/servicio3.jpg)
 }
 
 .our-services-area.our-service-area-three .single-services.bg-4 {
-    background-image: url(https://tiempo.hn/wp-content/uploads/2016/11/adunas-2.jpg)
+    background-image: url(../img/aduanas/servicio4.jpg)
 }
 
 .our-services-area.our-service-area-three .single-services.bg-5 {
-    background-image: url(https://tiempo.hn/wp-content/uploads/2016/11/adunas-2.jpg)
+    background-image: url(../img/aduanas/servicio5.jpg)
 }
 
 .our-services-area.our-service-area-three .single-services.bg-6 {
@@ -2395,6 +2396,13 @@ textarea.form-control {
     background-size: cover
 }
 
+.we-are-area.we-are-area-three2 {
+    background-image: url(http://www.grupomaster.com.ni/wp-content/uploads/2017/04/agencia3-1200x675.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
 .we-are-area.we-are-area-three .we-area-form {
     max-width: 810px;
     margin: auto
@@ -2532,7 +2540,8 @@ textarea.form-control {
     width: 100%;
     border-radius: 0;
     height: 50px;
-    background-color: #f9f9f9
+    background-color: #f9f9f9;
+    border: solid 1px #03a7cb;
 }
 
 .we-area-form .nice-select .current {
