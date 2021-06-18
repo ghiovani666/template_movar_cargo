@@ -90,7 +90,7 @@
                             <li>
                                 <i class="bx bxs-envelope"></i>
                                 <span>Email</span>
-                                <a href="javascript:void(0)">soporte@movar.com.pe</a>
+                                <a href="javascript:void(0)">soporte@com.pe</a>
                             </li>
                         </ul>
                         <div class="sidebar-follow-us">
@@ -126,7 +126,7 @@
                             <div class="contact-title">
                                 <h2>¿Listo para empezar?</h2>
                             </div>
-                            <form id="contactForm">
+                            <form id="" action="mensaje_contacto.php" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
@@ -147,7 +147,7 @@
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label>Teléfono</label>
-                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control"
+                                            <input type="number" name="msg_subject" id="msg_subject" class="form-control"
                                                 required data-error="Please enter your Phone">
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -235,6 +235,9 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+    $('#contacto_menu').addClass('active');
+    </script>
 </body>
 
 <!-- Mirrored from templates.envytheme.com/Movar Cargo/default/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 17:56:02 GMT -->

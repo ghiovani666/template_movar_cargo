@@ -70,33 +70,28 @@
     
     <section class="our-services-area our-service-area-three pt-100 pb-70">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="about-content">
-                        <span class="top-title">Servicios</span>
-                      
-                    </div>
+            <div class="col-sm-12">
+                <div class="services-content">
+                    <h3 style="text-align:center;">Nuestros Servicios</h3>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="services-content">
-                        <span class="top-title">Nuestro Servicios</span>
                         <h2>Todo el servicio de calidad que brindamos a nuestros clientes.</h2>
-                        <a href="!#" class="default-btn">
-                            <span>NUESTROS VALORES</span>
-                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-1">
-                        <span class="flaticon-swimming-pool"></span>
+                        <span class="flaticon-swimming-pool-3"></span>
                         <h3>
                             <a href="!#">
-                                Servicio
+                                Transporte Internacional vía marítima
                             </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
+                        <p>Ofrecemos servicios de transporte marítimo en contenedor completo FCL o en consolidado
+                            marítimo LCL para los casos en los que sus envíos no alcancen a llenar un contenedor.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -104,53 +99,60 @@
                         <span class="flaticon-swimming-pool-3"></span>
                         <h3>
                             <a href="!#">
-                                Información
+                                Transporte Internacional vía aérea
                             </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
+                        <p>Si necesitas enviar mercancía con gran urgencia será la opción más recomendable.
+                            Permite enviar determinadas mercancías (no todas) de una manera más sencilla que con el
+                            marítimo.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-3">
-                        <span class="flaticon-temperature-control"></span>
+                        <span class="flaticon-swimming-pool-3"></span>
                         <h3>
                             <a href="!#">
-                                Tiempo
+                                Agenciamiento aduanero
                             </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
+                        <p>Un buen asesoramiento en temas de logístico aduanero internacional es una de las partes más
+                            importantes dentro de la cadena de suministro.
+                            Por ese motivo, nos encargamos de la representación de tus trámites aduaneros con agilidad y
+                            fiabilidad
+                            .</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-4">
-                        <span class="flaticon-swimming-pool-2"></span>
+                        <span class="flaticon-swimming-pool-3"></span>
                         <h3>
                             <a href="!#">
-                                Innovación
+                                Transporte local
                             </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
+                        <p>Nuestro servicio de transporte de carga está diseñado para enviar mercancías o paquetes de
+                            manera segura, rápida y económica a varios puntos con la certeza que los mismos serán
+                            entregados a tiempo y en excelente estado a nivel local y nacional.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-5">
-                        <span class="flaticon-swimming-pool-1"></span>
+                        <span class="flaticon-swimming-pool-3"></span>
                         <h3>
                             <a href="!#">
-                                Rentabilidad
+                                Asesoría en comercio exterior
                             </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
+                        <p>Asesoría especializada que permitirá a nuestros clientes ingresar al comercio internacional
+                            de manera rápida y segura
+                            Ofrecemos herramientas de gestión para manejar aspectos que van desde la administración,
+                            manejo de aspectos legales, trámites aduaneros, logísticos y legales
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
   
 
 
@@ -201,6 +203,9 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+    $('#servicios_menu').addClass('active');
+    </script>
 </body>
 
 <!-- Mirrored from templates.envytheme.com/Movar Cargo/default/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 17:56:02 GMT -->

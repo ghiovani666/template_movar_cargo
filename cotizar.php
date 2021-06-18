@@ -70,29 +70,29 @@
 
     <section class="we-are-area we-are-area-three2 ptb-100">
         <div class="container">
-            <form class="we-area-form">
+            <form class="we-area-form" action="mensaje.php" method="POST">
                 <div class="we-area-title">
                     <h2>¡Cotizar Ahora!</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="First-Name" placeholder="Nombre">
+                            <input type="text" class="form-control" id="First-Name" placeholder="Nombre" required>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                            <input type="email" class="form-control" id="Email" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="Number" placeholder="Teléfono">
+                            <input type="number" class="form-control" id="Number" placeholder="Teléfono" required>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <select>
+                            <select name="somename" required="required">
                                 <option value="1">Seleccione Régimen</option>
                                 <option value="2">Importación</option>
                                 <option value="2">Exportación</option>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
                         <div class="form-group">
-                            <select>
+                            <select name="somename2" required>
                                 <option value="1">Seleccione Vía</option>
                                 <option value="2">Aéreo</option>
                                 <option value="2">Marítimo</option>
@@ -110,7 +110,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <select>
+                            <select name="somename3" required>
                                 <option value="1">País de origen</option>
                                 <option value="2">Perú</option>
                                 <option value="2">España</option>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
                         <div class="form-group">
-                            <select>
+                            <select name="somename4" required>
                                 <option value="1">País de Destino</option>
                                 <option value="2">Perú</option>
                                 <option value="2">España</option>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="form-group">
-                            <select>
+                            <select name="somename5" required>
                                 <option value="1">Icoterm</option>
                                 <option value="2">FOB</option>
                                 <option value="2">CIF</option>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
-                            <textarea name="message" class="form-control" id="Message" cols="30" rows="5"
+                            <textarea name="message" class="form-control" id="Message" cols="30" rows="5" required
                                 placeholder="Descripción del Producto"></textarea>
                         </div>
                     </div>
@@ -207,6 +207,12 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+
+    $('#cotizar_menu').addClass('active');
+
+    </script>
+
 </body>
 
 <!-- Mirrored from templates.envytheme.com/Movar Cargo/default/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 17:56:02 GMT -->

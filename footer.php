@@ -51,7 +51,9 @@
                         <li>
                             <a href="cotizar.php">Cotizar</a>
                         </li>
-
+                        <li>
+                            <a href="contacto.php">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +68,7 @@
                         <li>
                             <i class="bx bxs-envelope"></i>
                             <a
-                                href="javascript:void(0)">soporte@mova.com.pe</span></a>
+                                href="javascript:void(0)">soporte@com.pe</span></a>
                         </li>
                         <li>
                             <i class="bx bxs-phone-call"></i>

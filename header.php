@@ -30,7 +30,7 @@
                             </div>
                             <ul class="flag-area">
                                 <li class="flag-item-top">
-                                    <a href="intranet.php" class="flag-bar">
+                                    <a id="intranet_menu" href="intranet.php" class="flag-bar">
                                         <i class="bx  bx-globe"></i>
                                         <span>Intranet</span>
                                     </a>
@@ -60,30 +60,30 @@
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link active">
+                                    <a id="index_principal" href="index.php" class="nav-link">
                                         Inicio
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.php" class="nav-link">¿Quiénes Somos?</a>
+                                    <a id="quienes_somos" href="about.php" class="nav-link">¿Quiénes Somos?</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="servicios.php" class="nav-link">
+                                    <a id="servicios_menu" href="servicios.php" class="nav-link">
                                         Servicios
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="mision_vision.php" class="nav-link">
+                                    <a id="mision_vision" href="mision_vision.php" class="nav-link">
                                         Misión y visión
 
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="cotizar.php" class="nav-link">
+                                    <a id="cotizar_menu" href="cotizar.php" class="nav-link">
                                         Cotizar</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contacto.php" class="nav-link">Contacto</a>
+                                    <a id="contacto_menu" href="contacto.php" class="nav-link">Contacto</a>
                                 </li>
                             </ul>
                             <div class="others-option">

@@ -94,8 +94,12 @@
                         <div class="about-content">
                             <span class="top-title">Información</span>
                             <h2>¿Qué información necesitas para cotizar tu próxima importación?</h2>
-                            <p>Tipo de Mercancía INCOTERM negociado valor de la compra medidas y pesos puerto o
-                                aeropuerto de embarque</p>
+                            <p> ↨ Tipo de Mercancía</p>
+                            <p> ↨ INCOTERM negociado</p>
+                            <p> ↨ Valor de la compra</p>
+                            <p> ↨ Medidas y pesos</p>
+                            <p> ↨ Puerto o aeropuerto de embarque</p>
+
                             <a href="cotizar.php" class="default-btn">
                                 <span>Cotizar</span>
                             </a>
@@ -171,7 +175,7 @@
 
 
 
-    <section class="our-services-area our-service-area-three pt-100 pb-70">
+    <!-- <section class="our-services-area our-service-area-three pt-100 pb-70">
         <div class="container">
             <div class="col-sm-12">
                 <div class="services-content">
@@ -255,16 +259,16 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
-    
+
     <section class="about-area about-area-three" style="text-align: center;margin-bottom: 45px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
-                <img src="assets/img/aduanas/flujo.jpg" alt="Image">
+                    <img src="assets/img/aduanas/flujo.jpg" alt="Image">
                 </div>
             </div>
         </div>
@@ -274,7 +278,7 @@
 
 
 
-    <section class="we-are-area we-are-area-three ptb-100">
+    <!-- <section class="we-are-area we-are-area-three ptb-100">
         <div class="container">
             <form class="we-area-form">
                 <div class="we-area-title">
@@ -361,7 +365,7 @@
                 </button>
             </form>
         </div>
-    </section>
+    </section> -->
 
 
     <section class="contact-info-area" style="margin-top: 45px;">
@@ -387,7 +391,7 @@
                     <div class="single-contact-info">
                         <i class="flaticon-email"></i>
                         <h3>Visítanos</h3>
-                        <a href="#">mova@com.pe</a>
+                        <a href="#">soporte@com.pe</a>
                     </div>
                 </div>
             </div>
@@ -398,7 +402,7 @@
 
 
 
-    <section class="subscribe-area">
+    <!-- <section class="subscribe-area">
         <div class="container ptb-100">
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-4">
@@ -419,7 +423,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <?php include 'footer.php'; ?>
@@ -467,6 +471,11 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+
+    <script>
+    $('#index_principal').addClass('active');
+    </script>
+
 </body>
 
 <!-- Mirrored from templates.envytheme.com/Movar Cargo/default/index-3.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 17:56:02 GMT -->

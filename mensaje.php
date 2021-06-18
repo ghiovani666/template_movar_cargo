@@ -47,53 +47,22 @@
     </div>
 
 
+
     <?php include 'header.php'; ?>
-
-
-
-    <div class="page-title-area bg-1">
-        <div class="container">
-            <div class="page-title-content">
-                <h2>¿Quiénes Somos?</h2>
-                <ul>
-                    <li>
-                        <a href="index.php">
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="active">¿Quiénes Somos?</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
 
     <section class="about-area pt-100 pb-70">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-img">
-                        <img src="https://megacustomslogistic.com/wp-content/uploads/2018/01/artr22-01-1024x638.png"
-                            alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <span class="top-title">¿Quiénes Somos?</span>
-                        <h2>Movar Corp</h2>
-                        <p>Somos una agencia de carga internacional que cuenta con tarifas preferenciales con las
-                            principales compañías marítimos y aéreos del mercado, asimismo, contamos con personal
-                            especializado que permanecerá pendiente de su mercadería, desde el recojo en origen hasta la
-                            entrega en su almacén, brindando el servicio personalizado que su empresa requiere.</p>
-                    </div>
+            <div class="row" style="margin-top: 100px;text-align: center">
+                <div class="col-lg-12">
+                        <h2>
+                            <div class="alert alert-success" role="alert">
+                                ¡Se envió la solicitud!
+                            </div>
+                        </h2>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
 
     <?php include 'footer.php'; ?>
 
@@ -142,7 +111,7 @@
 
     <script src="assets/js/custom.js"></script>
     <script>
-    $('#quienes_somos').addClass('active');
+    $('#cotizar_menu').addClass('active');
     </script>
 </body>
 

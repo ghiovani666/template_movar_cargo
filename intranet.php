@@ -130,6 +130,9 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+    $('#intranet_menu').addClass('active');
+    </script>
 </body>
 
 <!-- Mirrored from templates.envytheme.com/Movar Cargo/default/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 17:56:02 GMT -->
