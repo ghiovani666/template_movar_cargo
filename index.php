@@ -37,6 +37,14 @@
     <title>Movar Cargo</title>
 </head>
 
+<style>
+@media (max-width: 768px) {
+    #modalQury {
+        margin-left: 30px !important;
+    }
+}
+</style>
+
 <body>
 
     <div class="preloader">
@@ -204,7 +212,7 @@
                     <div class="single-services bg-1">
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
-                            <a href="!#">
+                            <a href="javascript:void(0)">
                                 Transporte Internacional vía marítima
                             </a>
                         </h3>
@@ -216,7 +224,7 @@
                     <div class="single-services bg-2">
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
-                            <a href="!#">
+                            <a href="javascript:void(0)">
                                 Transporte Internacional vía aérea
                             </a>
                         </h3>
@@ -229,7 +237,7 @@
                     <div class="single-services bg-3">
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
-                            <a href="!#">
+                            <a href="javascript:void(0)">
                                 Agenciamiento aduanero
                             </a>
                         </h3>
@@ -244,7 +252,7 @@
                     <div class="single-services bg-4">
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
-                            <a href="!#">
+                            <a href="javascript:void(0)">
                                 Transporte local
                             </a>
                         </h3>
@@ -257,7 +265,7 @@
                     <div class="single-services bg-5">
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
-                            <a href="!#">
+                            <a href="javascript:void(0)">
                                 Asesoría en comercio exterior
                             </a>
                         </h3>
@@ -381,7 +389,7 @@
                             <div class="contact-title">
                                 <h2>¿Listo para empezar?</h2>
                             </div>
-                            <form id="myform2" >
+                            <form id="myform2">
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
@@ -488,12 +496,15 @@
     <div class="modal fade" id="exampleModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
+                <div class="modal-header" style="margin-left: 125px;" id="modalQury">
+                    <h2 class="modal-title">¡Cotizar Ahora!</h2>
+                    <button type="button" class="close" id="modalHide" style="width: 45px;background: #c8c8c8;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
                 <div class="container">
                     <form class="we-area-form" id="myform">
-                        <div class="we-area-title">
-                            <h2>¡Cotizar Ahora!</h2>
-                        </div>
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -678,9 +689,25 @@
     });
 
 
+    $('#modalHide').click(function() {
+        $('#exampleModal').modal('hide')
+
+    });
+
+
 
     //default
     $('#index_principal').addClass('active');
+
+
+    jQuery('.mean-nav ul > li > a:first-child').on("click", function(e) {
+
+        e.preventDefault();
+        //   jQuery('.mean-nav ul:first').slideUp();
+
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
+    });
 
     $('#index_principal').click(function() {
 
@@ -690,6 +717,11 @@
         $('#servicios_menu').removeClass('active');
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
+
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
+
 
     });
 
@@ -702,6 +734,10 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
+
     });
     $('#mision_vision').click(function() {
 
@@ -711,6 +747,10 @@
         $('#servicios_menu').removeClass('active');
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
+
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
 
     });
     $('#servicios_menu').click(function() {
@@ -722,6 +762,10 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
+
     });
     $('#cotizar_menu').click(function() {
 
@@ -732,6 +776,10 @@
         $('#cotizar_menu').addClass('active');
         $('#contacto_menu').removeClass('active');
 
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
+
     });
     $('#contacto_menu').click(function() {
 
@@ -741,6 +789,10 @@
         $('#servicios_menu').removeClass('active');
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').addClass('active');
+
+        jQuery('.mean-nav ul:first').slideUp();
+        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+
 
     });
     </script>
