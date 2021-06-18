@@ -700,12 +700,12 @@
     $('#index_principal').addClass('active');
 
 
-    jQuery('.mean-nav ul > li > a:first-child').on("click", function(e) {
+    $('a,.mean-nav').on("click", function(e) {
 
         e.preventDefault();
-        //   jQuery('.mean-nav ul:first').slideUp();
-
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+ //jQuery('.mean-nav ul:first').slideUp();
+// console.log('22222')
+// jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
     });
 
@@ -718,7 +718,7 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
+         jQuery('.mean-nav ul:first').slideUp();
         jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
