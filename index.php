@@ -296,8 +296,7 @@
                             <p> ↨ Medidas y pesos</p>
                             <p> ↨ Puerto o aeropuerto de embarque</p>
 
-                            <a href="javascript:void(0)" class="default-btn" data-toggle="modal"
-                                data-target="#exampleModal">
+                            <a href="javascript:void(0)" class="default-btn" id="open_modal">
                                 <span>Cotizar</span>
                             </a>
 
@@ -382,7 +381,7 @@
                             <div class="contact-title">
                                 <h2>¿Listo para empezar?</h2>
                             </div>
-                            <form id="" action="mensaje_contacto.php" method="POST">
+                            <form id="myform2" >
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
@@ -486,99 +485,101 @@
 
 
     <!-- cotizacion -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal">
         <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
+                <div class="container">
+                    <form class="we-area-form" id="myform">
+                        <div class="we-area-title">
+                            <h2>¡Cotizar Ahora!</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="txt_nombre" placeholder="Nombre"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="txt_email" placeholder="Email"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="txt_telefono" placeholder="Teléfono"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <select name="somename" required="required">
+                                        <option value="1"> Régimen</option>
+                                        <option value="2">Importación</option>
+                                        <option value="2">Exportación</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
+                                <div class="form-group">
+                                    <select name="somename2" required>
+                                        <option value="1"> Vía</option>
+                                        <option value="2">Aéreo</option>
+                                        <option value="2">Marítimo</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <select name="somename3" required>
+                                        <option value="1">País de origen</option>
+                                        <option value="2">Perú</option>
+                                        <option value="2">España</option>
+                                        <option value="2">Chile</option>
+                                        <option value="2">Colombia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
+                                <div class="form-group">
+                                    <select name="somename4" required>
+                                        <option value="1">País de Destino</option>
+                                        <option value="2">Perú</option>
+                                        <option value="2">España</option>
+                                        <option value="2">Chile</option>
+                                        <option value="2">Colombia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <select name="somename5" required>
+                                        <option value="1">Incoterms</option>
+                                        <option value="2">FOB</option>
+                                        <option value="2">CIF</option>
+                                        <option value="2">EXW</option>
+                                        <option value="2">FAS</option>
+                                        <option value="2">CFR</option>
+                                        <option value="2">FCA</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="txt_mensaje" cols="30" rows="5"
+                                        required placeholder="Descripción del Producto"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="default-btn" id="btn_guardar">
+                            <span>Enviar</span>
+                        </button>
+                    </form>
+                </div>
 
-            <div class="container">
-                <form class="we-area-form" action="mensaje.php" method="POST">
-                    <div class="we-area-title">
-                        <h2>¡Cotizar Ahora!</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="First-Name" placeholder="Nombre" required>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="Email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="number" class="form-control" id="Number" placeholder="Teléfono" required>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <select name="somename" required="required">
-                                    <option value="1"> Régimen</option>
-                                    <option value="2">Importación</option>
-                                    <option value="2">Exportación</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
-                            <div class="form-group">
-                                <select name="somename2" required>
-                                    <option value="1"> Vía</option>
-                                    <option value="2">Aéreo</option>
-                                    <option value="2">Marítimo</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <select name="somename3" required>
-                                    <option value="1">País de origen</option>
-                                    <option value="2">Perú</option>
-                                    <option value="2">España</option>
-                                    <option value="2">Chile</option>
-                                    <option value="2">Colombia</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
-                            <div class="form-group">
-                                <select name="somename4" required>
-                                    <option value="1">País de Destino</option>
-                                    <option value="2">Perú</option>
-                                    <option value="2">España</option>
-                                    <option value="2">Chile</option>
-                                    <option value="2">Colombia</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="form-group">
-                                <select name="somename5" required>
-                                    <option value="1">Incoterms</option>
-                                    <option value="2">FOB</option>
-                                    <option value="2">CIF</option>
-                                    <option value="2">EXW</option>
-                                    <option value="2">FAS</option>
-                                    <option value="2">CFR</option>
-                                    <option value="2">FCA</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" id="Message" cols="30" rows="5" required
-                                    placeholder="Descripción del Producto"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" class="default-btn" id="btn_guardar">
-                        <span>Enviar</span>
-                    </button>
-                </form>
             </div>
-
-
         </div>
     </div>
 
@@ -632,27 +633,51 @@
     <script src="assets/js/custom.js"></script>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
 
 
     <script>
-    document.getElementById("exampleModal").addEventListener('click', function() {
+    $('#open_modal').click(function() {
+        $('#exampleModal').modal('show')
+    });
+
+    // $('#btn_guardar').click(function() {
+
+
+    //     if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
+    //         $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
+    //         Swal.fire({
+    //             title: 'Registro exitoso'
+    //         })
+
+    // });
+
+
+    $("#myform").submit(function(e) {
+        e.preventDefault();
         Swal.fire({
             title: 'Registro exitoso'
         })
-        //validation code to see State field is mandatory.  
+        $('#exampleModal').modal('hide')
     });
+
+
+    $("#myform2").submit(function(e) {
+        e.preventDefault();
+        Swal.fire({
+            title: 'Envío exitoso'
+        })
+        $('input').val('')
+        $('textarea').val('')
+    });
+
+
 
     //default
     $('#index_principal').addClass('active');
