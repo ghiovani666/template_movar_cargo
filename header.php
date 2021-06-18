@@ -65,7 +65,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="quienes_somos" href="#about" class="nav-link">¿Quiénes Somos?</a>
+                                    <a id="quienes_somos" href="#about_main" class="nav-link">¿Quiénes Somos?</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="mision_vision" href="#mision_vision_main" class="nav-link">
@@ -74,17 +74,17 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="servicios_menu" href="#servicios" class="nav-link">
+                                    <a id="servicios_menu" href="#servicios_main" class="nav-link">
                                         Servicios
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a id="cotizar_menu" href="#cotizar" class="nav-link">
+                                    <a id="cotizar_menu" href="#cotizar_main" class="nav-link">
                                         Cotizar</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="contacto_menu" href="#contacto" class="nav-link">Contacto</a>
+                                    <a id="contacto_menu" href="#contacto_main" class="nav-link">Contacto</a>
                                 </li>
                             </ul>
                             <div class="others-option">

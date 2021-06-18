@@ -89,7 +89,7 @@
 
     <!-- quienes somos -->
 
-    <section class="about-area " id="about">
+    <section class="about-area " id="about_main">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -194,7 +194,7 @@
 
 
     <!-- nuestro servicios -->
-    <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios">
+    <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios_main">
         <div class="container">
             <div class="col-sm-12">
                 <div class="services-content">
@@ -283,7 +283,7 @@
 
     <!-- Qué información necesitas -->
 
-    <section class="about-area about-area-three" id="cotizar">
+    <section class="about-area about-area-three" id="cotizar_main">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 p-0">
@@ -334,7 +334,7 @@
 
 
     <!-- contacto y mapa -->
-    <section class="main-contact-area ptb-100" id="contacto">
+    <section class="main-contact-area ptb-100" id="contacto_main">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4">
@@ -700,14 +700,14 @@
     $('#index_principal').addClass('active');
 
 
-    $('a,.mean-nav').on("click", function(e) {
+    //     $('a,.mean-nav').on("click", function(e) {
 
-        e.preventDefault();
- //jQuery('.mean-nav ul:first').slideUp();
-// console.log('22222')
-// jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+    //         e.preventDefault();
+    //  //jQuery('.mean-nav ul:first').slideUp();
+    // // console.log('22222')
+    // // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
-    });
+    //     });
 
     $('#index_principal').click(function() {
 
@@ -718,8 +718,8 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
-         jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        //  jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
 
@@ -734,8 +734,8 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        // jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
     });
@@ -748,8 +748,8 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        // jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
     });
@@ -762,8 +762,8 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').removeClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        // jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
     });
@@ -776,8 +776,8 @@
         $('#cotizar_menu').addClass('active');
         $('#contacto_menu').removeClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        // jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
     });
@@ -790,8 +790,8 @@
         $('#cotizar_menu').removeClass('active');
         $('#contacto_menu').addClass('active');
 
-        jQuery('.mean-nav ul:first').slideUp();
-        jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
+        // jQuery('.mean-nav ul:first').slideUp();
+        // jQuery('.meanmenu-reveal').toggleClass("meanclose").html('<span /><span /><span />');
 
 
     });
