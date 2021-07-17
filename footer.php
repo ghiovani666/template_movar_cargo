@@ -37,22 +37,22 @@
                     <h3>Nuestros Links</h3>
                     <ul class="import-link">
                         <li>
-                            <a href="index.php">Inicio</a>
+                            <a href="#index_mains">Inicio</a>
                         </li>
                         <li>
-                            <a href="about.php">¿Quiénes Somos?</a>
+                            <a href="#about_main">Nosotros</a>
                         </li>
                         <li>
-                            <a href="servicios.php">Servicios</a>
+                            <a href="#servicios_main">Servicios</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="mision_vision.php">Misión y visión </a>
+                        </li> -->
+                        <li>
+                            <a href="#cotizar_main">Cotización</a>
                         </li>
                         <li>
-                            <a href="cotizar.php">Cotizar</a>
-                        </li>
-                        <li>
-                            <a href="contacto.php">Contacto</a>
+                            <a href="#contacto_main">Contactenos</a>
                         </li>
                     </ul>
                 </div>
