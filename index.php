@@ -42,17 +42,20 @@
     #modalQury {
         margin-left: 30px !important;
     }
+
+    img {
+        max-width: 70% !important;
+        height: auto;
+    }
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .modal-dialog {
-    max-width: 700px;
-    margin: 1.75rem auto;
-}
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
 
 }
-
-
 </style>
 
 <body>
@@ -379,11 +382,11 @@
     <!-- flujo de imagenes -->
 
     <section class="about-area about-area-three" style="text-align: center;margin-bottom: 45px;">
-    <div class="col-sm-12">
-                        <div class="services-content">
-                            <h3 style="text-align:center;font-size: 30px;">Flujograma Logístico</h3>
-                        </div>
-                    </div>
+        <div class="col-sm-12">
+            <div class="services-content">
+                <h3 style="text-align:center;font-size: 30px;">Flujograma Logístico</h3>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
@@ -606,7 +609,8 @@
 
                             <div class="col-lg-6 col-sm-6" id="txt_pais_origen2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Origen" required>
+                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Origen"
+                                        required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;" id="txt_pais_destino1">
@@ -628,7 +632,8 @@
 
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;" id="txt_pais_destino2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Destino" required>
+                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Destino"
+                                        required>
                                 </div>
                             </div>
 
@@ -654,8 +659,8 @@
 
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="txt_tipo_mercancia" placeholder="Tipo de Mercancía"
-                                        required>
+                                    <input type="text" class="form-control" id="txt_tipo_mercancia"
+                                        placeholder="Tipo de Mercancía" required>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-3">
@@ -666,20 +671,20 @@
                             </div>
                             <div class="col-lg-3 col-sm-3">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia" placeholder="Volumen"
-                                        required>
+                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
+                                        placeholder="Volumen" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia" placeholder="Cantidad de Bultos"
-                                        required>
+                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
+                                        placeholder="Cantidad de Bultos" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia" placeholder="Valor de la Carga"
-                                        required>
+                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
+                                        placeholder="Valor de la Carga" required>
                                 </div>
                             </div>
 
@@ -923,10 +928,10 @@
     $('#txt_incoterms2').hide();
     $("#p_incoterms").on('change', function() {
         if (this.value === "3") {
-          
+
             $('#txt_incoterms2').show();
         } else {
-          
+
             $('#txt_incoterms2').hide();
         }
     });
