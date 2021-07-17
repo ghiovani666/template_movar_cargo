@@ -84,7 +84,7 @@
                                         Cotización</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="contacto_menu" href="#contacto_main" class="nav-link">Contactenos</a>
+                                    <a id="contacto_menu" href="#contacto_main" class="nav-link">Contáctenos</a>
                                 </li>
                             </ul>
                             <div class="others-option">

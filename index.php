@@ -78,7 +78,7 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <h1>¡Conectate con el mundo! Realiza importaciones sin complicaciones</h1>
+                                <h1>¡Conéctate con el mundo! Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>
@@ -90,8 +90,8 @@
                         <div class="container">
                             <div class="slider-text">
                                 <span class="top-title">¡Pronto!</span>
-                                <h1>Por medio de nuestro intranet podras hacer seguimiento de tu carga desde la su
-                                    salida en el pais de origen</p>
+                                <h1>Por medio de nuestro intranet podrás hacer seguimiento de tu carga desde su
+                                    salida en el país de origen</p>
                             </div>
                         </div>
                     </div>
@@ -107,13 +107,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="assets/img/aduanas_1.png" alt="Image">
+                        <img src="assets/img/aduanas_1.jpg" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
                         <span class="top-title" style="font-size: 45px;">¿Quiénes Somos?</span>
-                        <h2>Movar Grupo</h2>
+                        <h2>Grupo Movar</h2>
                         <p>Somos un Operador Logistico que cuenta con tarifas preferenciales con las principales
                             compañías marítimas y aéreas, por lo que podemos ofrecerle las mejores ofertas de fletes del
                             mercado. Asimismo, contamos con personal especializado que permanecerá pendiente deL status
@@ -164,6 +164,52 @@
 
 
 
+    <!-- 
+    <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios_main">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="services-content">
+                    <h3 style="text-align:center;">Nuestros Servicios</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="services-content">
+                        <h2>Todo el servicio de calidad que brindamos a nuestros clientes.</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="about-img">
+                        <img src="assets/img/pdf_image/imagen1.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="about-img">
+                        <img src="assets/img/pdf_image/imagen2.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="about-img">
+                        <img src="assets/img/pdf_image/imagen3.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="about-img">
+                        <img src="assets/img/pdf_image/imagen4.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="about-img">
+                        <img src="assets/img/pdf_image/imagen5.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
     <!-- nuestro servicios -->
     <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios_main">
         <div class="container">
@@ -200,7 +246,7 @@
                                 Transporte Internacional vía aérea
                             </a>
                         </h3>
-                        <p>El transporte aereo de mercancias es la modalidad mas rapida para realizar operaciones de
+                        <p>El transporte aéreo de mercancías es la modalidad más rápida para realizar operaciones de
                             exportaciones e importaciones en el mercado actual.
                         </p>
                     </div>
@@ -210,7 +256,7 @@
                         <!-- <span class="flaticon-swimming-pool-3"></span> -->
                         <h3>
                             <a href="javascript:void(0)">
-                                Agencimiento de Aduanas
+                                Agenciamiento de aduanas
                             </a>
                         </h3>
                         <p>Un buen asesoramiento en temas de logístico aduanero internacional es una de las partes más
@@ -265,6 +311,13 @@
     </section>
 
 
+
+
+
+    <!-- nuestro servicios -->
+
+
+
     <!-- Qué información necesitas -->
 
     <section class="about-area about-area-three" id="cotizar_main">
@@ -284,9 +337,10 @@
                             <h2>¿Qué información necesitas para cotizar tu próxima importación?</h2>
                             <p> ↨ INCOTERMS NEGOCIADO</p>
                             <p> ↨ PUERTO O AEROPUERTO DE EMBARQUE</p>
-                            <p> ↨ TIPO DE MERCANCIA</p>
+                            <p> ↨ TIPO DE MERCANCÍA</p>
+                            <p> ↨ VALOR DE MERCANCÍA</p>
                             <p> ↨ PUNTO DE RECOJO</p>
-                            <p> ↨ NUMERO DE BULTOS</p>
+                            <p> ↨ NÚMERO DE BULTOS</p>
                             <p> ↨ MEDIDAS Y PESOS</p>
 
                             <a href="javascript:void(0)" class="default-btn" id="open_modal">
@@ -554,20 +608,20 @@
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="txt_nombre" placeholder="Nombre"
-                                        required>
+                                    <input type="text" class="form-control" name="txt_nombre" id="txt_nombre"
+                                        placeholder="Nombre" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="txt_email" placeholder="Email"
-                                        required>
+                                    <input type="email" class="form-control" name="txt_email" id="txt_email"
+                                        placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_telefono" placeholder="Teléfono"
-                                        required>
+                                    <input type="number" class="form-control" name="txt_telefono" id="txt_telefono"
+                                        placeholder="Teléfono" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
@@ -609,8 +663,7 @@
 
                             <div class="col-lg-6 col-sm-6" id="txt_pais_origen2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Origen"
-                                        required>
+                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Origen">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;" id="txt_pais_destino1">
@@ -632,8 +685,8 @@
 
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;" id="txt_pais_destino2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Escribir País/Puerto - Destino"
-                                        required>
+                                    <input type="text" class="form-control"
+                                        placeholder="Escribir País/Puerto - Destino">
                                 </div>
                             </div>
 
@@ -653,37 +706,37 @@
 
                             <div class="col-lg-6 col-sm-6" id="txt_incoterms2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Punto de Recojo" required>
+                                    <input type="text" class="form-control" placeholder="Punto de Recojo">
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="txt_tipo_mercancia"
+                                    <input type="text" class="form-control" name="txt_puerto5"
                                         placeholder="Tipo de Mercancía" required>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-3">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia" placeholder="Peso"
+                                    <input type="number" class="form-control" placeholder="Peso" name="txt_puerto6"
                                         required>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-3">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
-                                        placeholder="Volumen" required>
+                                    <input type="number" class="form-control" name="txt_puerto7" placeholder="Volumen"
+                                        required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
+                                    <input type="number" class="form-control" name="txt_puerto8"
                                         placeholder="Cantidad de Bultos" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" id="txt_tipo_mercancia"
+                                    <input type="number" class="form-control" name="txt_puerto9"
                                         placeholder="Valor de la Carga" required>
                                 </div>
                             </div>
@@ -769,25 +822,29 @@
         $('#exampleModal').modal('show')
     });
 
-    // $('#btn_guardar').click(function() {
+    $('#btn_guardar').click(function() {
 
 
-    //     if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
-    //         $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
-    //         Swal.fire({
-    //             title: 'Registro exitoso'
-    //         })
-
-    // });
-
-
-    $("#myform").submit(function(e) {
-        e.preventDefault();
-        Swal.fire({
-            title: 'Registro exitoso'
-        })
+        if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
+            $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
+            Swal.fire({
+                title: 'Registro exitoso'
+            })
         $('#exampleModal').modal('hide')
+        $('input').val('')
+        $('textarea').val('')
+
     });
+
+
+    // $("#myform").submit(function(e) {
+    //     // console.log('22222')
+    //     e.preventDefault();
+    //     Swal.fire({
+    //         title: 'Registro exitoso'
+    //     })
+    //     $('#exampleModal').modal('hide')
+    // });
 
 
     $("#myform2").submit(function(e) {
