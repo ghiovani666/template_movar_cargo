@@ -26,7 +26,7 @@
                         <div class="header-right-content">
                             <div class="call-us">
                                 <i class="bx bx-phone-call"></i>
-                                <a href="javascript:void(0)">+ 51 984262202 / + 51 955190228</a>
+                                <a href="javascript:void(0)">(511)6816950 / +51 955190228</a>
                             </div>
                             <ul class="flag-area">
                                 <li class="flag-item-top">
@@ -65,14 +65,14 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="quienes_somos" href="#about_main" class="nav-link">¿Quiénes Somos?</a>
+                                    <a id="quienes_somos" href="#about_main" class="nav-link">Nosotros</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a id="mision_vision" href="#mision_vision_main" class="nav-link">
                                         Misión y visión
 
                                     </a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a id="servicios_menu" href="#servicios_main" class="nav-link">
                                         Servicios
@@ -81,10 +81,10 @@
 
                                 <li class="nav-item">
                                     <a id="cotizar_menu" href="#cotizar_main" class="nav-link">
-                                        Cotizar</a>
+                                        Cotización</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="contacto_menu" href="#contacto_main" class="nav-link">Contacto</a>
+                                    <a id="contacto_menu" href="#contacto_main" class="nav-link">Contactenos</a>
                                 </li>
                             </ul>
                             <div class="others-option">
