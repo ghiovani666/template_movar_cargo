@@ -360,7 +360,7 @@
 
 
     <!-- nuestro clientes -->
-    <section class="our-services-area our-service-area-three pt-100 pb-70">
+    <section class="our-services-area our-service-area-three ">
         <div class="container">
 
 
