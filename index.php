@@ -211,7 +211,7 @@
 
 
     <!-- nuestro servicios -->
-    <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios_main">
+    <section class="our-services-area our-service-area-three" id="servicios_main">
         <div class="container">
             <div class="col-sm-12">
                 <div class="services-content">
@@ -360,7 +360,7 @@
 
 
     <!-- nuestro clientes -->
-    <section class="our-services-area our-service-area-three ">
+    <section class="our-services-area our-service-area-three pt-100 pb-70">
         <div class="container">
 
 
