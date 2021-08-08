@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="single-footer-widget">
                     <a href="!#" class="logo">
-                        <img src="assets/img/logo.png" alt="Image">
+                        <img src="assets/img/logo_fooder.png" alt="Image">
                     </a>
                     <p>Somos una agencia de carga internacional que cuenta con tarifas preferenciales con las
                         principales compañías marítimos y aéreos del mercado.</p>
@@ -72,7 +72,7 @@
                         </li>
                         <li>
                             <i class="bx bxs-phone-call"></i>
-                            <a href="javascript:void(0)">(511)6816950 / +51 955190228</a>
+                            <a href="javascript:void(0)">(511)6816950 / +51 981503398</a>
                         </li>
                     </ul>
                 </div>

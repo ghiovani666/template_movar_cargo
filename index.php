@@ -78,7 +78,7 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <h1>¡Conéctate con el mundo! Realiza importaciones sin complicaciones</h1>
+                                <h1>¡Tu mejor confianza! Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>
@@ -89,9 +89,9 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <span class="top-title">¡Pronto!</span>
+                                <!-- <span class="top-title">¡Pronto!</span>
                                 <h1>Por medio de nuestro intranet podrás hacer seguimiento de tu carga desde su
-                                    salida en el país de origen</p>
+                                    salida en el país de origen</p> -->
                             </div>
                         </div>
                     </div>
@@ -101,28 +101,23 @@
     </section>
 
     <!-- quienes somos -->
-
     <section class="about-area " id="about_main">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="about-img">
+                    <div class="about-img" style="text-align: center;">
                         <img src="assets/img/aduanas_1.jpg" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <span class="top-title" style="font-size: 45px;">¿Quiénes Somos?</span>
+                        <span class="top-title" style="font-size: 45px;text-align: center;">¿Quiénes Somos?</span>
                         <h2>Grupo Movar</h2>
                         <p>Somos un Operador Logistico que cuenta con tarifas preferenciales con las principales
                             compañías marítimas y aéreas, por lo que podemos ofrecerle las mejores ofertas de fletes del
-                            mercado. Asimismo, contamos con personal especializado que permanecerá pendiente deL status
+                            mercado. Asimismo, contamos con personal especializado que permanecerá pendiente del status
                             de su mercaderia, desde el recojo en origen hasta la entrega en su almacén en destino,
                             brindando el servicio personalizado que su empresa requiere. </p>
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -135,8 +130,12 @@
             <div class="row ">
                 <div class="col-lg-6">
                     <div class="about-content">
+                        <div class="about-img" style="display: flex;">
+                            <img src="assets/img/cambios/aduna-mision.jpg" alt="Image"
+                                style="margin-right: 45px;width: 85px;">
+                            <h2>Misión</h2>
+                        </div>
 
-                        <h2>Misión</h2>
                         <p style="text-align:justify;">Brindar servicios competitivos garantizando un proceso logístico
                             innovador y de calidad,
                             apoyado siempre en un equipo especializado que estará a su disposición.</p>
@@ -145,7 +144,11 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <h2>Visión</h2>
+                        <div class="about-img" style="display: flex;">
+                            <img src="assets/img/cambios/aduna-vision.jpg" alt="Image"
+                                style="margin-right: 45px;width: 85px;">
+                            <h2>Visión</h2>
+                        </div>
                         <p style="text-align:justify;">Ser la mejor opción en el sector logístico, para las empresas,
                             ofreciendo soluciones óptimas
                             que logren alcanzar las expectativas del cliente.</p>
@@ -157,153 +160,143 @@
     </section>
 
 
-
-
-
-
-
-
-
-    <!-- 
-    <section class="our-services-area our-service-area-three pt-100 pb-70" id="servicios_main">
+    <!-- transporte_internacional -->
+    <section class="our-services-area our-service-area-three" id="transporte_internacional" >
         <div class="container">
             <div class="col-sm-12">
                 <div class="services-content">
-                    <h3 style="text-align:center;">Nuestros Servicios</h3>
+                    <h1 style="text-align:center;">Nuestros Servicios</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="services-content">
-                        <h2>Todo el servicio de calidad que brindamos a nuestros clientes.</h2>
+                <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 405px;">
+                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                        <h2 style="color: white;">Elige cómo transportar tu carga</h2>
+                        <p style="color: white;">Transportamos tu carga por la vía más adecuada para tu negocio
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="about-img">
-                        <img src="assets/img/pdf_image/imagen1.png" alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="about-img">
-                        <img src="assets/img/pdf_image/imagen2.png" alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="about-img">
-                        <img src="assets/img/pdf_image/imagen3.png" alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="about-img">
-                        <img src="assets/img/pdf_image/imagen4.png" alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="about-img">
-                        <img src="assets/img/pdf_image/imagen5.png" alt="Image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-    <!-- nuestro servicios -->
-    <section class="our-services-area our-service-area-three" id="servicios_main">
-        <div class="container">
-            <div class="col-sm-12">
-                <div class="services-content">
-                    <h3 style="text-align:center;">Nuestros Servicios</h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="services-content">
-                        <h2>Todo el servicio de calidad que brindamos a nuestros clientes.</h2>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-1">
-                        <!-- <span class="flaticon-swimming-pool-3"></span> -->
+                    <div class="single-services bg-1" style="text-align: center;">
+                        <img src="assets/img/cambios/aduana-carga1.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
-                                Transporte Internacional vía marítima
+                                Marítimo
                             </a>
                         </h3>
                         <p>Ofrecemos servicios de transporte marítimo poniendo a su disposición diferentes tipos de
                             contenedor, de acuerdo a las necesidades especificas de sus productos.
                         </p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal1">Cotizar</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-2">
-                        <!-- <span class="flaticon-swimming-pool-3"></span> -->
+                    <div class="single-services bg-2" style="text-align: center;">
+                        <img src="assets/img/cambios/aduana-carga2.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
-                                Transporte Internacional vía aérea
+                                Aérero
                             </a>
                         </h3>
                         <p>El transporte aéreo de mercancías es la modalidad más rápida para realizar operaciones de
                             exportaciones e importaciones en el mercado actual.
                         </p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal2">Cotizar</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- agenciamiento_aduana -->
+    <section class="our-services-area our-service-area-three" id="agenciamiento_aduana" >
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-3">
-                        <!-- <span class="flaticon-swimming-pool-3"></span> -->
+                    <div class="single-services bg-3" style="text-align: center;height: 520px;">
+                        <img src="assets/img/cambios/aduana-carga3.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
                                 Agenciamiento de aduanas
                             </a>
                         </h3>
                         <p>Un buen asesoramiento en temas de logístico aduanero internacional es una de las partes más
-                            importantes dentro de la cadena de suministro.
-                            Por ese motivo, nos encargamos de la representación de tus trámites aduaneros con agilidad y
-                            fiabilidad
-                            .</p>
+                            importantes dentro de la cadena de suministro. Por ese motivo, nos encargamos de la
+                            representación de tus trámites aduaneros con agilidad y fiabilidad.</p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal3"
+                            style="margin-top: 55px;">Cotizar</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-4">
-                        <!-- <span class="flaticon-swimming-pool-3"></span> -->
+                    <div class="single-services bg-5" style="text-align: center;">
+                        <img src="assets/img/cambios/aduana-carga4.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
+                        <h3>
+                            <a href="javascript:void(0)">
+                                Asesoría legal en comercio exterior
+                            </a>
+                        </h3>
+                        <p>Brindamos asesoría especializada en importaciones y exportaciones que permitirá a nuestros
+                            clientes ingresar al comercio internacional de manera rápida y segura, conociendo todos los
+                            aspectos que el proceso requiera como la administración, manejo de aspectos comerciales,
+                            aduaneros, logísticos y legales, etc.
+                        </p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal4">Cotizar</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 520px;">
+                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                        <h2 style="color: white;">¿Necesitas representación y asesoría?</h2>
+                        <p style="color: white;">Evita inconvenientes y sobrecostos en tus procedimientos aduaneros
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- trasporte_distribucion -->
+    <section class="our-services-area our-service-area-three" id="trasporte_distribucion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 405px;">
+                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                        <h2 style="color: white;">Requieres transporte local y distribución</h2>
+                        <p style="color: white;">Nuestro servicio está diseñado para enviar mercancías o paquetes de
+                            manera segura, rápida y económica.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-services bg-1" style="text-align: center;height: 405px;">
+                        <img src="assets/img/cambios/aduana-carga5.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
                                 Transporte local
                             </a>
                         </h3>
-                        <p>"Sabemos que un buen asesoramiento
-                            en temas de logística aduanera
-                            internacional es una de las partes más
-                            importantes dentro de la cadena de
-                            suministro. Por este motivo, nos
-                            encargamos de la representación de
-                            tus trámites aduaneros con agilidad y
-                            fiabilidad."
+                        <p>Ofrecemos Servicio Local y Nacional, desde y a cualquier parte del país; en distribución
+                            podemos colocar
                         </p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal5">Cotizar</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-5">
-                        <!-- <span class="flaticon-swimming-pool-3"></span> -->
+                    <div class="single-services bg-2" style="text-align: center;">
+                        <img src="assets/img/cambios/aduana-carga6.png" alt="Image"
+                            style="margin-right: 45px;width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
-                                Asesoría en comercio exterior
+                                Distribución
                             </a>
                         </h3>
-                        <p>"Brindamos asesoría especializada en
-                            importaciones y exportaciones que
-                            permitirá a nuestros clientes ingresar
-                            al comercio internacional de manera
-                            rápida y segura, conociendo todos los
-                            aspectos que el proceso requiera como
-                            la administración, manejo de aspectos
-                            comerciales, aduaneros, logísticos y
-                            legales, etc."
-
+                        <p>Distribución de pedidos a todos sus clientes ubicados en el área de Lima Metropolitana y el
+                            Callao; asegurando el seguimiento en todo el proceso.
                         </p>
+                        <a href="javascript:void(0)" class="default-btn" id="open_modal6">Cotizar</a>
                     </div>
                 </div>
             </div>
@@ -311,16 +304,8 @@
     </section>
 
 
-
-
-
-    <!-- nuestro servicios -->
-
-
-
     <!-- Qué información necesitas -->
-
-    <section class="about-area about-area-three" id="cotizar_main">
+    <section class="about-area about-area-three" id="cotizar_main" style="margin-top: 50px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 p-0">
@@ -333,9 +318,9 @@
                 <div class="col-lg-6 p-0">
                     <div class="about-content-bg">
                         <div class="about-content">
-                            <span class="top-title" style="font-size: 45px;">Información</span>
+                            <!-- <span class="top-title" style="font-size: 45px;">Información</span> -->
                             <h2>¿Qué información necesitas para cotizar tu próxima importación?</h2>
-                            <p> ↨ INCOTERMS NEGOCIADO</p>
+                            <p> ↨ INCOTERM NEGOCIADO</p>
                             <p> ↨ PUERTO O AEROPUERTO DE EMBARQUE</p>
                             <p> ↨ TIPO DE MERCANCÍA</p>
                             <p> ↨ VALOR DE MERCANCÍA</p>
@@ -370,7 +355,8 @@
 
                     <div class="col-sm-12">
                         <div class="services-content">
-                            <h3 style="text-align:center;font-size: 30px;margin-bottom: 60px;">Nuestros clientes</h3>
+                            <h3 style="text-align:center;font-size: 30px;margin-bottom: 60px;">Ellos ya confían en
+                                nosotros</h3>
                         </div>
                     </div>
 
@@ -438,7 +424,7 @@
     <section class="about-area about-area-three" style="text-align: center;margin-bottom: 45px;">
         <div class="col-sm-12">
             <div class="services-content">
-                <h3 style="text-align:center;font-size: 30px;">Flujograma Logístico</h3>
+                <h3 style="text-align:center;font-size: 30px;">Flujograma Logístico de importación</h3>
             </div>
         </div>
         <div class="container-fluid">
@@ -577,7 +563,7 @@
                     <div class="single-contact-info">
                         <i class="flaticon-24-hours-support"></i>
                         <h3>Teléfonos</h3>
-                        <a href="javascript:void(0)">(511)6816950 / +51 955190228</a>
+                        <a href="javascript:void(0)">(511)6816950 / +51 981503398</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
@@ -596,7 +582,7 @@
     <div class="modal fade" id="exampleModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header" style="margin-left: 125px;" id="modalQury">
+                <div class="modal-header" id="modalQury">
                     <h2 class="modal-title">¡Cotizar Ahora!</h2>
                     <button type="button" class="close" id="modalHide" style="width: 45px;background: #c8c8c8;">
                         <span aria-hidden="true">&times;</span>
@@ -818,7 +804,7 @@
 
 
     <script>
-    $('#open_modal').click(function() {
+    $('#open_modal,#open_modal1,#open_modal2,#open_modal3,#open_modal4,#open_modal5,#open_modal6').click(function() {
         $('#exampleModal').modal('show')
     });
 
