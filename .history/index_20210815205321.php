@@ -47,6 +47,10 @@
         max-width: 70% !important;
         height: auto;
     }
+    #titulo2{
+        
+        display: none;
+}
 }
 
 @media (min-width: 576px) {
@@ -78,7 +82,7 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1>
+                                <h1>¡Tu mejor confianza! Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>
@@ -131,7 +135,8 @@
                 <div class="col-lg-6">
                     <div class="about-content">
                         <div class="about-img" style="display: flex;">
-                            <img src="assets/img/cambios/aduna-mision.jpg" alt="Image" style="width: 85px;">
+                            <img src="assets/img/cambios/aduna-mision.jpg" alt="Image"
+                                style="width: 85px;">
                             <h2>Misión</h2>
                         </div>
 
@@ -144,7 +149,8 @@
                 <div class="col-lg-6">
                     <div class="about-content">
                         <div class="about-img" style="display: flex;">
-                            <img src="assets/img/cambios/aduna-vision.jpg" alt="Image" style="width: 85px;">
+                            <img src="assets/img/cambios/aduna-vision.jpg" alt="Image"
+                                style="width: 85px;">
                             <h2>Visión</h2>
                         </div>
                         <p style="text-align:justify;">Ser la mejor opción en el sector logístico, para las empresas,
@@ -159,7 +165,7 @@
 
 
     <!-- transporte_internacional -->
-    <section class="our-services-area our-service-area-three" id="transporte_internacional">
+    <section class="our-services-area our-service-area-three" id="transporte_internacional" >
         <div class="container">
             <div class="col-sm-12">
                 <div class="services-content">
@@ -209,16 +215,9 @@
         </div>
     </section>
     <!-- agenciamiento_aduana -->
-    <section class="our-services-area our-service-area-three" id="agenciamiento_aduana">
+    <section class="our-services-area our-service-area-three" id="agenciamiento_aduana" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 520px;">
-                    <div class="services-content" style="text-align:center;margin-top: 70px;">
-                        <h2 style="color: white;">¿Necesitas representación y asesoría?</h2>
-                        <p style="color: white;">Evita inconvenientes y sobrecostos en tus procedimientos aduaneros
-                        </p>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-3" style="text-align: center;height: 520px;">
                         <img src="assets/img/cambios/aduana-carga3.png" alt="Image"
@@ -252,7 +251,13 @@
                         <a href="javascript:void(0)" class="default-btn" id="open_modal4">Cotizar</a>
                     </div>
                 </div>
-
+                <div id="titulo2" class="col-lg-4 col-sm-6" style="background: #1569ae;height: 520px;">
+                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                        <h2 style="color: white;">¿Necesitas representación y asesoría?</h2>
+                        <p style="color: white;">Evita inconvenientes y sobrecostos en tus procedimientos aduaneros
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -269,7 +274,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-11" style="text-align: center;height: 405px;">
+                    <div class="single-services bg-1" style="text-align: center;height: 405px;">
                         <img src="assets/img/cambios/aduana-carga5.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
@@ -284,7 +289,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-12" style="text-align: center;">
+                    <div class="single-services bg-2" style="text-align: center;">
                         <img src="assets/img/cambios/aduana-carga6.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
@@ -589,7 +594,7 @@
                 </div>
 
                 <div class="container">
-                    <form class="we-area-form" id="myform"  method="post">
+                    <form class="we-area-form" id="myform">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -808,7 +813,8 @@
     });
 
     $('#btn_guardar').click(function() {
-        
+
+
         if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
             $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
             Swal.fire({
@@ -822,15 +828,12 @@
 
 
     // $("#myform").submit(function(e) {
+    //     // console.log('22222')
     //     e.preventDefault();
-    //       $.ajax({
-    //         type: 'post',
-    //         url: 'ajax/email.php',
-    //         data: $('form').serialize(),
-    //         success: function (response) {
-    //             console.log(response)
-    //         }
-    //       });
+    //     Swal.fire({
+    //         title: 'Registro exitoso'
+    //     })
+    //     $('#exampleModal').modal('hide')
     // });
 
 

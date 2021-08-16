@@ -807,31 +807,41 @@
         $('#exampleModal').modal('show')
     });
 
-    $('#btn_guardar').click(function() {
-        
-        if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
-            $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
-            Swal.fire({
-                title: 'Registro exitoso'
-            })
-        $('#exampleModal').modal('hide')
-        $('input').val('')
-        $('textarea').val('')
-
-    });
+    // $('#btn_guardar').click(function() {
 
 
-    // $("#myform").submit(function(e) {
-    //     e.preventDefault();
-    //       $.ajax({
-    //         type: 'post',
-    //         url: 'ajax/email.php',
-    //         data: $('form').serialize(),
-    //         success: function (response) {
-    //             console.log(response)
-    //         }
-    //       });
+    //     if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
+    //         $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
+    //         Swal.fire({
+    //             title: 'Registro exitoso'
+    //         })
+    //     $('#exampleModal').modal('hide')
+    //     $('input').val('')
+    //     $('textarea').val('')
+
     // });
+
+
+    $("#myform").submit(function(e) {
+      
+        e.preventDefault();
+        
+
+
+          $.ajax({
+            type: 'post',
+            url: 'ajax/email.php',
+            data: $('form').serialize(),
+            success: function (response) {
+                console.log(response)
+            }
+          });
+
+        // Swal.fire({
+        //     title: 'Registro exitoso'
+        // })
+        // $('#exampleModal').modal('hide')
+    });
 
 
     $("#myform2").submit(function(e) {

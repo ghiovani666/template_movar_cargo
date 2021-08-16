@@ -269,7 +269,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-11" style="text-align: center;height: 405px;">
+                    <div class="single-services bg-1" style="text-align: center;height: 405px;">
                         <img src="assets/img/cambios/aduana-carga5.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
@@ -284,7 +284,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-services bg-12" style="text-align: center;">
+                    <div class="single-services bg-2" style="text-align: center;">
                         <img src="assets/img/cambios/aduana-carga6.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
@@ -589,7 +589,7 @@
                 </div>
 
                 <div class="container">
-                    <form class="we-area-form" id="myform"  method="post">
+                    <form class="we-area-form" id="myform">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -808,7 +808,8 @@
     });
 
     $('#btn_guardar').click(function() {
-        
+
+
         if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
             $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
             Swal.fire({
@@ -822,15 +823,12 @@
 
 
     // $("#myform").submit(function(e) {
+    //     // console.log('22222')
     //     e.preventDefault();
-    //       $.ajax({
-    //         type: 'post',
-    //         url: 'ajax/email.php',
-    //         data: $('form').serialize(),
-    //         success: function (response) {
-    //             console.log(response)
-    //         }
-    //       });
+    //     Swal.fire({
+    //         title: 'Registro exitoso'
+    //     })
+    //     $('#exampleModal').modal('hide')
     // });
 
 

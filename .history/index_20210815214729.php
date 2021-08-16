@@ -589,7 +589,7 @@
                 </div>
 
                 <div class="container">
-                    <form class="we-area-form" id="myform"  method="post">
+                    <form class="we-area-form" id="myform" action="ajax/email.php" method="post">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -808,7 +808,8 @@
     });
 
     $('#btn_guardar').click(function() {
-        
+
+
         if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
             $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
             Swal.fire({
@@ -822,15 +823,12 @@
 
 
     // $("#myform").submit(function(e) {
+    //     // console.log('22222')
     //     e.preventDefault();
-    //       $.ajax({
-    //         type: 'post',
-    //         url: 'ajax/email.php',
-    //         data: $('form').serialize(),
-    //         success: function (response) {
-    //             console.log(response)
-    //         }
-    //       });
+    //     Swal.fire({
+    //         title: 'Registro exitoso'
+    //     })
+    //     $('#exampleModal').modal('hide')
     // });
 
 
