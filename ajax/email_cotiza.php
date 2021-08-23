@@ -1,12 +1,12 @@
 <?php
     require '../phpmailer/PHPMailerAutoload.php';
-
-$sender = 'ghiovani999@gmail.com';
+  
+$sender = 'ventas@movarcorp.com';
 $senderName = 'Movar';
-$recipient = 'ghiovani999@gmail.com';
+$recipient = 'ventas@movarcorp.com';
 
 // The subject line of the email
-$subject = 'Mensaje de Cotización';
+$subject = 'Mensaje de Cotizacion';
 
 
 //Recibir todos los parámetros del formulario
@@ -1173,9 +1173,9 @@ try {
     // Specify the SMTP settings.
     $mail->isSMTP();
     $mail->setFrom($sender, $senderName);
-    $mail->Username   = 'ghiovani999@gmail.com';
-    $mail->Password   = 'estudiarucvjorge369';
-    $mail->Host       = 'smtp.gmail.com';;
+    $mail->Username   = 'AKIA4TG5H7TEZR4FHACK';
+    $mail->Password   = 'BDz4eB5xyzlQVidGiwt3ZV89Tb1bMF+u3jTinCmM0/qE';
+    $mail->Host       = 'email-smtp.us-east-1.amazonaws.com';;
     $mail->Port       = 587;
 
     $mail->SMTPAuth   = true;

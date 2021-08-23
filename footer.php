@@ -1,13 +1,11 @@
 <footer class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" style="text-align: center;">
                 <div class="single-footer-widget">
                     <a href="!#" class="logo">
                         <img src="assets/img/logo_fooder.png" alt="Image">
                     </a>
-                    <p>Somos una agencia de carga internacional que cuenta con tarifas preferenciales con las
-                        principales compañías marítimos y aéreos del mercado.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

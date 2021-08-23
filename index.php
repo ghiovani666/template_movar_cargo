@@ -106,7 +106,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img" style="text-align: center;">
-                        <img src="assets/img/aduanas_1.jpg" alt="Image">
+                        <img src="assets/img/aduanas_1.jpg" alt="Image" style=" max-width: 100%;height: auto">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -169,7 +169,7 @@
 
             <div class="row">
                 <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 405px;">
-                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                    <div class="services-content" style="text-align:center;margin-top: 100px;">
                         <h2 style="color: white;">Elige cómo transportar tu carga</h2>
                         <p style="color: white;">Transportamos tu carga por la vía más adecuada para tu negocio
                         </p>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-1" style="text-align: center;">
-                        <img src="assets/img/cambios/aduana-carga1.png" alt="Image"
+                        <img src="assets/img/cambios/aduana-carga2.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
@@ -192,11 +192,11 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-services bg-2" style="text-align: center;">
-                        <img src="assets/img/cambios/aduana-carga2.png" alt="Image"
+                        <img src="assets/img/cambios/aduana-carga1.png" alt="Image"
                             style="width: 85px;margin-bottom: 40px;">
                         <h3>
                             <a href="javascript:void(0)">
-                                Aérero
+                                Aéreo
                             </a>
                         </h3>
                         <p>El transporte aéreo de mercancías es la modalidad más rápida para realizar operaciones de
@@ -213,7 +213,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 520px;">
-                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                    <div class="services-content" style="text-align:center;margin-top: 150px;">
                         <h2 style="color: white;">¿Necesitas representación y asesoría?</h2>
                         <p style="color: white;">Evita inconvenientes y sobrecostos en tus procedimientos aduaneros
                         </p>
@@ -261,7 +261,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6" style="background: #1569ae;height: 405px;">
-                    <div class="services-content" style="text-align:center;margin-top: 70px;">
+                    <div class="services-content" style="text-align:center;margin-top: 100px;">
                         <h2 style="color: white;">Requieres transporte local y distribución</h2>
                         <p style="color: white;">Nuestro servicio está diseñado para enviar mercancías o paquetes de
                             manera segura, rápida y económica.
@@ -492,28 +492,28 @@
                             <div class="contact-title">
                                 <h2>¿Listo para empezar?</h2>
                             </div>
-                            <form id="myform2">
+                            <form class="we-area-form" id="myform2" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
                                             <label>Nombre</label>
-                                            <input type="text" name="name" id="name" class="form-control" required
-                                                data-error="Please enter your name">
+                                            <input type="text" name="txt_contac_nombre" id="name" class="form-control"
+                                                required data-error="Please enter your name">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
                                             <label>Correo Electrónico</label>
-                                            <input type="email" name="email" id="email" class="form-control" required
-                                                data-error="Please enter your email">
+                                            <input type="email" name="txt_contac_email" id="email" class="form-control"
+                                                required data-error="Please enter your email">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label>Teléfono</label>
-                                            <input type="number" name="msg_subject" id="msg_subject"
+                                            <input type="number" name="txt_contac_telefono" id="msg_subject"
                                                 class="form-control" required data-error="Please enter your Phone">
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -521,8 +521,8 @@
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label>Mensaje</label>
-                                            <textarea name="message" class="form-control" id="message" cols="30"
-                                                rows="10" required data-error="Write your message"></textarea>
+                                            <textarea name="txt_contac_mensaje" class="form-control" id="message"
+                                                cols="30" rows="10" required data-error="Write your message"></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -589,7 +589,7 @@
                 </div>
 
                 <div class="container">
-                    <form class="we-area-form" id="myform"  method="post">
+                    <form class="we-area-form" id="myform" method="post">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -611,36 +611,36 @@
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <select name="somename" required="required">
-                                        <option value="1"> Régimen</option>
-                                        <option value="2">Importación</option>
-                                        <option value="2">Exportación</option>
+                                    <select name="txt_regimen" required="required">
+                                        <option value="Ninguno"> Régimen</option>
+                                        <option value="Importación">Importación</option>
+                                        <option value="Exportación">Exportación</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;">
                                 <div class="form-group">
-                                    <select name="somename2" required>
-                                        <option value="1"> Vía</option>
-                                        <option value="2">Aéreo</option>
-                                        <option value="2">Marítimo</option>
+                                    <select name="txt_via" required>
+                                        <option value="Ninguno"> Vía</option>
+                                        <option value="Aéreo">Aéreo</option>
+                                        <option value="Marítimo">Marítimo</option>
                                     </select>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-sm-6" id="txt_pais_origen1">
                                 <div class="form-group">
-                                    <select name="somename3" id="p_origen">
-                                        <option value="0">País/Puerto de origen</option>
-                                        <option value="1">Argentina</option>
-                                        <option value="2">Chile</option>
-                                        <option value="3">China</option>
-                                        <option value="4">España</option>
-                                        <option value="5">EEUU</option>
-                                        <option value="6">Italia</option>
-                                        <option value="7">Francia</option>
-                                        <option value="8">Perú</option>
-                                        <option value="9">Otro</option>
+                                    <select name="txt_origen" id="p_origen">
+                                        <option value="Ninguno">País/Puerto de origen</option>
+                                        <option value="Argentina">Argentina</option>
+                                        <option value="Chile">Chile</option>
+                                        <option value="China">China</option>
+                                        <option value="España">España</option>
+                                        <option value="EEUU">EEUU</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Francia">Francia</option>
+                                        <option value="Perú">Perú</option>
+                                        <option value="Otro">Otro</option>
                                     </select>
 
                                 </div>
@@ -653,17 +653,17 @@
                             </div>
                             <div class="col-lg-6 col-sm-6" style="margin-bottom: 25px;" id="txt_pais_destino1">
                                 <div class="form-group">
-                                    <select name="somename4" id="p_destino">
-                                        <option value="0">País/Puerto de Destino</option>
-                                        <option value="1">Argentina</option>
-                                        <option value="2">Chile</option>
-                                        <option value="3">China</option>
-                                        <option value="4">España</option>
-                                        <option value="5">EEUU</option>
-                                        <option value="6">Italia</option>
-                                        <option value="7">Francia</option>
-                                        <option value="8">Perú</option>
-                                        <option value="9">Otro</option>
+                                    <select name="txt_destino" id="p_destino">
+                                        <option value="Ninguno">País/Puerto de Destino</option>
+                                        <option value="Argentina">Argentina</option>
+                                        <option value="Chile">Chile</option>
+                                        <option value="China">China</option>
+                                        <option value="España">España</option>
+                                        <option value="EEUU">EEUU</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Francia">Francia</option>
+                                        <option value="Perú">Perú</option>
+                                        <option value="Otro">Otro</option>
                                     </select>
                                 </div>
                             </div>
@@ -677,59 +677,60 @@
 
                             <div class="col-lg-6 col-sm-6" id="txt_incoterms1">
                                 <div class="form-group">
-                                    <select name="somename5" id="p_incoterms">
-                                        <option value="0">Incoterms</option>
-                                        <option value="1">FOB</option>
-                                        <option value="2">CIF</option>
-                                        <option value="3">EXW</option>
-                                        <option value="4">FAS</option>
-                                        <option value="5">CFR</option>
-                                        <option value="6">FCA</option>
+                                    <select name="txt_icoterms" id="p_incoterms">
+                                        <option value="Ninguno">Incoterms</option>
+                                        <option value="FOB">FOB</option>
+                                        <option value="CIF">CIF</option>
+                                        <option value="EXW">EXW</option>
+                                        <option value="FAS">FAS</option>
+                                        <option value="CFR">CFR</option>
+                                        <option value="FCA">FCA</option>
                                     </select>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-sm-6" id="txt_incoterms2">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Punto de Recojo">
+                                    <input type="text" class="form-control" name="txt_recojo_punto"
+                                        placeholder="Punto de Recojo">
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="txt_puerto5"
+                                    <input type="text" class="form-control" name="txt_mercancia"
                                         placeholder="Tipo de Mercancía" required>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-3">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" placeholder="Peso" name="txt_puerto6"
+                                    <input type="number" class="form-control" placeholder="Peso" name="txt_peso"
                                         required>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-3">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" name="txt_puerto7" placeholder="Volumen"
+                                    <input type="number" class="form-control" name="txt_volumen" placeholder="Volumen"
                                         required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" name="txt_puerto8"
+                                    <input type="number" class="form-control" name="txt_candidad_bultos"
                                         placeholder="Cantidad de Bultos" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" name="txt_puerto9"
+                                    <input type="number" class="form-control" name="txt_valor_carga"
                                         placeholder="Valor de la Carga" required>
                                 </div>
                             </div>
 
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="txt_mensaje" cols="30" rows="5"
-                                        required placeholder="Descripción del Producto"></textarea>
+                                    <textarea class="form-control" id="txt_mensaje" name="txt_mensaje" cols="30"
+                                        rows="5" required placeholder="Descripción del Producto"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -819,18 +820,39 @@
     //     $('textarea').val('')
 
     // });
-
+    //enviar cotizacion
 
     $("#myform").submit(function(e) {
         e.preventDefault();
-          $.ajax({
+        $.ajax({
             type: 'post',
-            url: 'ajax/email.php',
+            url: 'ajax/email_cotiza.php',
             data: $('form').serialize(),
-            success: function (response) {
+            success: function(response) {
+
+                if ($('#txt_nombre').val().length > 0 && $('#txt_email').val().length > 0 &&
+                    $('#txt_telefono').val().length > 0 && $('#txt_mensaje').val().length > 0)
+                    Swal.fire({
+                        title: 'Registro exitoso'
+                    })
+                $('#exampleModal').modal('hide')
+                $('input').val('')
+                $('textarea').val('')
+
+            }
+        });
+    });
+    //enviar contacto
+    $("#myform2").submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'post',
+            url: 'ajax/email_contacto.php',
+            data: $('form').serialize(),
+            success: function(response) {
                 console.log(response)
             }
-          });
+        });
     });
 
 
@@ -949,7 +971,7 @@
 
     $('#txt_pais_origen2').hide();
     $("#p_origen").on('change', function() {
-        if (this.value === "9") {
+        if (this.value === "Otro") {
             $("#txt_pais_origen1").hide();
             $('#txt_pais_origen2').show();
         } else {
@@ -960,7 +982,7 @@
 
     $('#txt_pais_destino2').hide();
     $("#p_destino").on('change', function() {
-        if (this.value === "9") {
+        if (this.value === "Otro") {
             $("#txt_pais_destino1").hide();
             $('#txt_pais_destino2').show();
         } else {
@@ -971,7 +993,7 @@
 
     $('#txt_incoterms2').hide();
     $("#p_incoterms").on('change', function() {
-        if (this.value === "3") {
+        if (this.value === "EXW") {
 
             $('#txt_incoterms2').show();
         } else {

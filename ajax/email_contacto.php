@@ -1,31 +1,19 @@
 <?php
     require '../phpmailer/PHPMailerAutoload.php';
 
-$sender = 'ghiovani999@gmail.com';
+$sender = 'ventas@movarcorp.com';
 $senderName = 'Movar';
-$recipient = 'ghiovani999@gmail.com';
-
+$recipient = 'ventas@movarcorp.com';
+    
 // The subject line of the email
-$subject = 'Mensaje de Cotización';
+$subject = 'Mensaje de Contaco';
 
 
 //Recibir todos los parámetros del formulario
-$txt_nombre           =$_POST['txt_nombre'];
-$txt_email            =$_POST['txt_email'];
-$txt_telefono         =$_POST['txt_telefono'];
-$txt_regimen          =$_POST['txt_regimen'];
-$txt_via              =$_POST['txt_via'];
-$txt_origen           =$_POST['txt_origen'];
-$txt_destino          =$_POST['txt_destino'];
-$txt_icoterms         =$_POST['txt_icoterms'];
-$txt_mercancia        =$_POST['txt_mercancia'];
-$txt_recojo_punto     =$_POST['txt_recojo_punto'];
-
-$txt_peso             =$_POST['txt_peso'];
-$txt_volumen          =$_POST['txt_volumen'];
-$txt_candidad_bultos  =$_POST['txt_candidad_bultos'];
-$txt_valor_carga      =$_POST['txt_valor_carga'];
-$txt_mensaje          =$_POST['txt_mensaje'];
+$txt_nombre           =$_POST['txt_contac_nombre'];
+$txt_email            =$_POST['txt_contac_email'];
+$txt_telefono         =$_POST['txt_contac_telefono'];
+$txt_mensaje          =$_POST['txt_contac_mensaje'];
 
 
 // The HTML-formatted body of the email
@@ -364,7 +352,7 @@ table {
                                 <tr>
                                     <td class='center' align='' valign=''
                                         style='font-family:Arial, sans-serif; font-style: italic; color:#d8d8d8; font-size:11px; line-height:18px;'>
-                                        Formmulari de Cotización</td>
+                                        Formmulari de Contacto</td>
                                 </tr>
                             </table>
                         </td>
@@ -622,372 +610,7 @@ table {
 
                             </table>
                         </td>
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Régimen</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_regimen."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Vía</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_via."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td class='spacer' width='20' align='left' valign='top' bgcolor='#f0f0f0'
-                            style='margin: 0 !important; padding: 0 !important; line-height: 0 !important;'>&nbsp;</td>
-                        <!-- START OF LEFT COLUMN-->
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            País/Puerto de origen</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_origen." </td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            País/Puerto de Destino</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_destino."  </td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Incoterms</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_icoterms." </td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Tipo de Mercancía</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_mercancia." </td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Punto de Recojo</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_recojo_punto." </td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class='spacer' width='20' align='left' valign='top' bgcolor='#f0f0f0'
-                            style='margin: 0 !important; padding: 0 !important; line-height: 0 !important;'>&nbsp;</td>
-                        <!-- START OF LEFT COLUMN-->
-
-
-
-
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Peso</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_peso."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Volumen</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_volumen."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Cantidad de Bultos</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_candidad_bultos."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
-
-                        <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
-                            <table width='100%'>
-
-                                <tr>
-                                    <td height='12' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF HEADING-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:16px ; color:#262626; font-family: Lucida Sans Unicode; line-height: 26px; '>
-                                        <a href='#' style='font-weight: normal; color:#262626; text-decoration: none;'>
-                                            Valor de la Carga</a>
-                                    </td>
-                                </tr>
-                                <!-- END OF HEADING-->
-                                <tr>
-                                    <td height='10' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-                                <!-- START OF TEXT-->
-                                <tr>
-                                    <td valign='top' align='center'
-                                        style='padding: 0px; text-shadow: 1px 1px 0px #ffffff;font-size:13px ; color:#727272; font-family: Arial,sans-serif; line-height: 23px; '>
-                                        ".$txt_valor_carga."</td>
-                                </tr>
-                                <!-- END OF TEXT-->
-                                <tr>
-                                    <td height='20' bgcolor='#f0f0f0' style='padding:0; line-height: 0;'>&nbsp;</td>
-                                </tr>
-
-                            </table>
-                        </td>
+                      
                         <td class='one_half' align='left' valign='top' width='270' bgcolor='#f0f0f0' style=''>
                             <table width='100%'>
 
@@ -1173,9 +796,9 @@ try {
     // Specify the SMTP settings.
     $mail->isSMTP();
     $mail->setFrom($sender, $senderName);
-    $mail->Username   = 'ghiovani999@gmail.com';
-    $mail->Password   = 'estudiarucvjorge369';
-    $mail->Host       = 'smtp.gmail.com';;
+    $mail->Username   = 'AKIA4TG5H7TEZR4FHACK';
+    $mail->Password   = 'BDz4eB5xyzlQVidGiwt3ZV89Tb1bMF+u3jTinCmM0/qE';
+    $mail->Host       = 'email-smtp.us-east-1.amazonaws.com';;
     $mail->Port       = 587;
 
     $mail->SMTPAuth   = true;
