@@ -56,6 +56,21 @@
     }
 
 }
+
+/* header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+} */
+
+.nav-active_1 {
+    max-width: 100px !important;left: 50px !important;position: absolute;top: -10px !important;  
+}
+.nav-active_2 {
+    max-width: 160px !important;left: 50px !important; position: absolute ;top: -60px !important;
+}
+
+
 </style>
 
 <body>
@@ -1003,6 +1018,19 @@
     // $('#p_destino').on('change', function() {
     //     alert(this.value);
     // });
+
+
+    const navbar = document.querySelector('.nav-fixed');
+window.onscroll = () => {
+    if (window.scrollY > 150) {
+        navbar.classList.add('nav-active_1');
+        navbar.classList.remove('nav-active_2');
+    } else {
+        navbar.classList.add('nav-active_2');
+        navbar.classList.remove('nav-active_1');
+    }
+};
+
     </script>
 </body>
 

@@ -1,12 +1,10 @@
-    
-    
     <header class="header-area">
 
         <div class="top-header top-header-three">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-sm-4">
-                        <ul class="header-left-content">
+                    <div class="col-lg-5 col-sm-4">
+                        <ul class="header-left-content" style="margin-left: 260px;">
                             <li>
                                 <a href="https://www.facebook.com/movarcargo/" target="_blank">
                                     <i class="bx bxl-facebook"></i>
@@ -57,7 +55,7 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md">
                         <a class="navbar-brand" href="javascript:void(0)">
-                            <img src="assets/img/logo.png" alt="Logo">
+                        <img src="assets/img/aduanas/aduna_fooder.svg" alt="Logo" style="max-width: 160px;left: 50px; position: absolute;top: -60px;" class="nav-fixed">
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav m-auto">
