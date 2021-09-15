@@ -89,9 +89,7 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <!-- <span class="top-title">¡Pronto!</span>
-                                <h1>Por medio de nuestro intranet podrás hacer seguimiento de tu carga desde su
-                                    salida en el país de origen</p> -->
+                            <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>
@@ -106,7 +104,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img" style="text-align: center;">
-                        <img src="assets/img/aduanas_1.jpg" alt="Image" style=" max-width: 100%;height: auto">
+                        <img src="assets/img/aduanas_1.png" alt="Image" style=" max-width: 100%;height: auto">
                     </div>
                 </div>
                 <div class="col-lg-6">

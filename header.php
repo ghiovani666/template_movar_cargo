@@ -99,7 +99,7 @@
                                     <a id="contacto_menu" href="#contacto_main" class="nav-link">Contáctenos</a>
                                 </li>
                             </ul>
-                            <div class="others-option">
+                            <!-- <div class="others-option">
                                 <div class="option-item">
                                     <i class="search-btn bx bx-search"></i>
                                     <i class="close-btn bx bx-x"></i>
@@ -115,7 +115,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </nav>
                 </div>
@@ -129,7 +129,7 @@
                             <div class="circle circle-three"></div>
                         </div>
                     </div>
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="option-inner">
                             <div class="others-option justify-content-center d-flex align-items-center">
                                 <div class="option-item">
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
