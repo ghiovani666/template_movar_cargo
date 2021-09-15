@@ -84,12 +84,12 @@
                     </div>
                 </div>
             </div>
-            <div class="slider-item slider-item-bg-2" style="margin-top: 105px;">
+            <div class="slider-item slider-item-bg-2" style="margin-top: 45px;">
                 <div class="d-table">
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                            <!-- <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1> -->
+                            <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>

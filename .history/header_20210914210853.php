@@ -1,4 +1,21 @@
-    
+ <!-- Cabecera -->
+ <div class="header">
+        <div class="logo">
+            <img src="./assets/img/movar-logo-grande-2.svg" alt="grupo-movar-logo">
+        </div>
+        <div class="nav">
+            <div class="nav-header"></div>
+            <div class="nav-body">
+                <ul class="menu">
+                    <li class="item"><a href="#">Inicio</a></li>
+                    <li class="item"><a href="#">Nosotros</a></li>
+                    <li class="item"><a href="#">Servicios</a></li>
+                    <li class="item"><a href="#">Contáctenos</a></li>
+                    <li id="bars" class="toogle" onclick="toogleMenu()"><i class="fa fa-bars"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
     
     <header class="header-area">
 

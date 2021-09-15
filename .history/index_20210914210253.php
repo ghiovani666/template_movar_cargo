@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slider-item slider-item-bg-2" style="margin-top: 105px;">
+            <div class="slider-item slider-item-bg-2" style="margin-top: 45px;">
                 <div class="d-table">
                     <div class="d-table-cell">
                         <div class="container">

@@ -1,14 +1,14 @@
 <footer class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6" style="text-align: center; margin-top: 23px;">
+            <div class="col-lg-3 col-md-6" style="text-align: center;">
                 <div class="single-footer-widget">
                     <a href="!#" class="logo">
-                        <img src="assets/img/aduanas/aduna_fooder.svg" alt="Image"  style="max-width: 70%;">
+                        <img src="assets/img/aduanas/aduna_fooder.svg" alt="Image">
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" style="text-align: center; margin-top: 65px;">
                 <div class="single-footer-widget">
                     <h3>Nuestros Servicios</h3>
                     <ul class="import-link">
