@@ -1511,10 +1511,6 @@
         max-width: 145px
     }
 
-    .redirect_header {
-        margin-left: 0px !important;
-    }
-
     .mobile-nav nav .navbar-nav {
         height: 300px;
         overflow-y: scroll!important

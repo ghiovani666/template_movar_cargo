@@ -44,7 +44,7 @@
     }
 
     img {
-        /* max-width: 70% !important; */
+        max-width: 70% !important;
         height: auto;
     }
 }
@@ -118,7 +118,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="about-img" style="text-align: center;    margin-top: 45px;">
+                    <div  style="text-align: center;    margin-top: 45px;">
                         <img src="assets/img/aduanas_1.png" alt="Image" style=" max-width: 100%;height: auto">
                     </div>
                 </div>

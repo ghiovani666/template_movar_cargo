@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
-                        <ul class="header-left-content redirect_header" style="margin-left: 260px;">
+                        <ul class="header-left-content" >
                             <li>
                                 <a href="https://www.facebook.com/movarcargo/" target="_blank">
                                     <i class="bx bxl-facebook"></i>
