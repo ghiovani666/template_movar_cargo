@@ -34,22 +34,6 @@
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
-
-
-
-
-
-
-    <link rel="stylesheet" href="countin/css/animate.css">
-    <link rel="stylesheet" href="countin/css/style.css">
-
-
-
-
-
-
-
-
     <title>Grupo Movar</title>
 </head>
 
@@ -80,18 +64,13 @@
 } */
 
 .nav-active_1 {
-    max-width: 100px !important;
-    left: 50px !important;
-    position: absolute;
-    top: -10px !important;
+    max-width: 100px !important;left: 50px !important;position: absolute;top: -10px !important;  
+}
+.nav-active_2 {
+    max-width: 160px !important;left: 50px !important; position: absolute ;top: -60px !important;
 }
 
-.nav-active_2 {
-    max-width: 160px !important;
-    left: 50px !important;
-    position: absolute;
-    top: -60px !important;
-}
+
 </style>
 
 <body>
@@ -106,71 +85,17 @@
 
     <?php include 'header.php'; ?>
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- carrucel -->
-    <div class="hero-wrap">
-        <div class="home-slider owl-carousel" style="margin-bottom: 155px;">
-
-
-        <div class="slider-item" style="background-image:url(assets/img/grupo-movar-home.jpg);;margin-top: 155px;">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-8 ftco-animate">
-                            <div class="text w-100 text-center">
-                            <h1>¡Tu mejor alianza!</h1>
-                               
-                                <h1 class="mb-4">Realiza importaciones sin complicaciones</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="hero-slider-area" id="index_mains">
+        <div class="hero-slider owl-carousel owl-theme">
+            <div class="slider-item slider-item-bg-1">
+               
             </div>
-
-            <div class="slider-item" style="background-image:url(assets/img/slider/slider-2.jpg);margin-top: 155px;">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <!-- <div class="col-md-8 ftco-animate">
-                            <div class="text w-100 text-center">
-                                <h2>We Support Business</h2>
-                                <h1 class="mb-4">The Best Business Support</h1>
-                                <p><a href="#" class="btn btn-white">Connect with us</a></p>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
+            <div class="slider-item slider-item-bg-2" style="margin-top: 105px;">
+                
             </div>
-
-
-
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
 
     <!-- quienes somos -->
     <section class="about-area " id="about_main">
@@ -492,7 +417,7 @@
 
     <!-- flujo de imagenes -->
 
-    <section class="about-area about-area-three" style="text-align: center;margin-bottom: 45px;">
+    <!-- <section class="about-area about-area-three" style="text-align: center;margin-bottom: 45px;">
         <div class="col-sm-12">
             <div class="services-content">
                 <h3 style="text-align:center;font-size: 30px;">Flujograma Logístico de importación</h3>
@@ -501,11 +426,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
-                    <img src="assets/img/aduanas/flujo.jpg" alt="Image" style="max-width: 100%;display: inline-block;">
+                    <img src="assets/img/aduanas/flujo.jpg" alt="Image">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -836,26 +761,20 @@
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="countin/js/jquery-migrate-3.0.1.min.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-
-
 
 
 
     <script src="assets/js/meanmenu.min.js"></script>
 
     <script src="assets/js/wow.min.js"></script>
-    <script src="countin/js/jquery.waypoints.min.js"></script>
-    <script src="countin/js/jquery.stellar.min.js"></script>
 
     <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/nice-select.min.js"></script>
 
     <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="countin/js/main.js"></script>
 
     <script src="assets/js/jarallax.min.js"></script>
 
@@ -1086,15 +1005,16 @@
 
 
     const navbar = document.querySelector('.nav-fixed');
-    window.onscroll = () => {
-        if (window.scrollY > 150) {
-            navbar.classList.add('nav-active_1');
-            navbar.classList.remove('nav-active_2');
-        } else {
-            navbar.classList.add('nav-active_2');
-            navbar.classList.remove('nav-active_1');
-        }
-    };
+window.onscroll = () => {
+    if (window.scrollY > 150) {
+        navbar.classList.add('nav-active_1');
+        navbar.classList.remove('nav-active_2');
+    } else {
+        navbar.classList.add('nav-active_2');
+        navbar.classList.remove('nav-active_1');
+    }
+};
+
     </script>
 </body>
 

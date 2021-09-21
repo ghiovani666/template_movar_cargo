@@ -128,9 +128,9 @@
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
                         <div class="col-md-8 ftco-animate">
                             <div class="text w-100 text-center">
-                            <h1>¡Tu mejor alianza!</h1>
-                               
-                                <h1 class="mb-4">Realiza importaciones sin complicaciones</h1>
+                                <h2>We Business Grow</h2>
+                                <h1 class="mb-4">We Help You Businesses Innovate and Grow</h1>
+                                <p><a href="#" class="btn btn-white">Connect with us</a></p>
                             </div>
                         </div>
                     </div>
@@ -501,7 +501,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
-                    <img src="assets/img/aduanas/flujo.jpg" alt="Image" style="max-width: 100%;display: inline-block;">
+                    <img src="assets/img/aduanas/flujo.jpg" alt="Image">
                 </div>
             </div>
         </div>

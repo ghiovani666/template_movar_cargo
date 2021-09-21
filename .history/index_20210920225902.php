@@ -40,7 +40,18 @@
 
 
 
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
     <link rel="stylesheet" href="countin/css/animate.css">
+    
+    <link rel="stylesheet" href="countin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="countin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="countin/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="countin/css/flaticon.css">
     <link rel="stylesheet" href="countin/css/style.css">
 
 
@@ -80,18 +91,13 @@
 } */
 
 .nav-active_1 {
-    max-width: 100px !important;
-    left: 50px !important;
-    position: absolute;
-    top: -10px !important;
+    max-width: 100px !important;left: 50px !important;position: absolute;top: -10px !important;  
+}
+.nav-active_2 {
+    max-width: 160px !important;left: 50px !important; position: absolute ;top: -60px !important;
 }
 
-.nav-active_2 {
-    max-width: 160px !important;
-    left: 50px !important;
-    position: absolute;
-    top: -60px !important;
-}
+
 </style>
 
 <body>
@@ -106,71 +112,33 @@
 
     <?php include 'header.php'; ?>
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- carrucel -->
-    <div class="hero-wrap">
-        <div class="home-slider owl-carousel" style="margin-bottom: 155px;">
-
-
-        <div class="slider-item" style="background-image:url(assets/img/grupo-movar-home.jpg);;margin-top: 155px;">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-8 ftco-animate">
-                            <div class="text w-100 text-center">
-                            <h1>¡Tu mejor alianza!</h1>
-                               
-                                <h1 class="mb-4">Realiza importaciones sin complicaciones</h1>
+    <section class="hero-slider-area" id="index_mains">
+        <div class="hero-slider owl-carousel owl-theme">
+            <div class="slider-item slider-item-bg-1">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="slider-text">
+                                <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="slider-item" style="background-image:url(assets/img/slider/slider-2.jpg);margin-top: 155px;">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <!-- <div class="col-md-8 ftco-animate">
-                            <div class="text w-100 text-center">
-                                <h2>We Support Business</h2>
-                                <h1 class="mb-4">The Best Business Support</h1>
-                                <p><a href="#" class="btn btn-white">Connect with us</a></p>
+            <div class="slider-item slider-item-bg-2" style="margin-top: 105px;">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="slider-text">
+                            <!-- <h1>¡Tu mejor alianza! <br />Realiza importaciones sin complicaciones</h1> -->
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
 
     <!-- quienes somos -->
     <section class="about-area " id="about_main">
@@ -501,7 +469,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
-                    <img src="assets/img/aduanas/flujo.jpg" alt="Image" style="max-width: 100%;display: inline-block;">
+                    <img src="assets/img/aduanas/flujo.jpg" alt="Image">
                 </div>
             </div>
         </div>
@@ -836,8 +804,36 @@
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="countin/js/jquery-migrate-3.0.1.min.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script src="countin/js/jquery.min.js"></script>
+  <script src="countin/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="countin/js/popper.min.js"></script>
+  <script src="countin/js/bootstrap.min.js"></script>
+  <script src="countin/js/jquery.easing.1.3.js"></script>
+  <script src="countin/js/jquery.waypoints.min.js"></script>
+  <script src="countin/js/jquery.stellar.min.js"></script>
+  <script src="countin/js/jquery.animateNumber.min.js"></script>
+  <script src="countin/js/owl.carousel.min.js"></script>
+  <script src="countin/js/jquery.magnific-popup.min.js"></script>
+  <script src="countin/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="countin/js/google-map.js"></script>
+  <script src="countin/js/main.js"></script>
+
+
+
+
 
 
 
@@ -847,15 +843,12 @@
     <script src="assets/js/meanmenu.min.js"></script>
 
     <script src="assets/js/wow.min.js"></script>
-    <script src="countin/js/jquery.waypoints.min.js"></script>
-    <script src="countin/js/jquery.stellar.min.js"></script>
 
     <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/nice-select.min.js"></script>
 
     <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="countin/js/main.js"></script>
 
     <script src="assets/js/jarallax.min.js"></script>
 
@@ -1086,15 +1079,16 @@
 
 
     const navbar = document.querySelector('.nav-fixed');
-    window.onscroll = () => {
-        if (window.scrollY > 150) {
-            navbar.classList.add('nav-active_1');
-            navbar.classList.remove('nav-active_2');
-        } else {
-            navbar.classList.add('nav-active_2');
-            navbar.classList.remove('nav-active_1');
-        }
-    };
+window.onscroll = () => {
+    if (window.scrollY > 150) {
+        navbar.classList.add('nav-active_1');
+        navbar.classList.remove('nav-active_2');
+    } else {
+        navbar.classList.add('nav-active_2');
+        navbar.classList.remove('nav-active_1');
+    }
+};
+
     </script>
 </body>
 

@@ -119,41 +119,36 @@
 
     <!-- carrucel -->
     <div class="hero-wrap">
-        <div class="home-slider owl-carousel" style="margin-bottom: 155px;">
-
-
-        <div class="slider-item" style="background-image:url(assets/img/grupo-movar-home.jpg);;margin-top: 155px;">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item" style="background-image:url(assets/img/grupo-movar-home.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
                         <div class="col-md-8 ftco-animate">
                             <div class="text w-100 text-center">
-                            <h1>¡Tu mejor alianza!</h1>
-                               
-                                <h1 class="mb-4">Realiza importaciones sin complicaciones</h1>
+                                <h2>We Business Grow</h2>
+                                <h1 class="mb-4">We Help You Businesses Innovate and Grow</h1>
+                                <p><a href="#" class="btn btn-white">Connect with us</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="slider-item" style="background-image:url(assets/img/slider/slider-2.jpg);margin-top: 155px;">
+            <div class="slider-item" style="background-image:url(assets/img/slider/slider-2.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <!-- <div class="col-md-8 ftco-animate">
+                        <div class="col-md-8 ftco-animate">
                             <div class="text w-100 text-center">
                                 <h2>We Support Business</h2>
                                 <h1 class="mb-4">The Best Business Support</h1>
                                 <p><a href="#" class="btn btn-white">Connect with us</a></p>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 
@@ -501,7 +496,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
-                    <img src="assets/img/aduanas/flujo.jpg" alt="Image" style="max-width: 100%;display: inline-block;">
+                    <img src="assets/img/aduanas/flujo.jpg" alt="Image">
                 </div>
             </div>
         </div>
@@ -836,8 +831,33 @@
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="countin/js/jquery-migrate-3.0.1.min.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script src="countin/js/jquery.easing.1.3.js"></script>
+    <script src="countin/js/jquery.waypoints.min.js"></script>
+    <script src="countin/js/jquery.stellar.min.js"></script>
+    <script src="countin/js/jquery.animateNumber.min.js"></script>
+    <script src="countin/js/owl.carousel.min.js"></script>
+    <script src="countin/js/jquery.magnific-popup.min.js"></script>
+    <script src="countin/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
+    </script>
+    <script src="countin/js/google-map.js"></script>
+    <script src="countin/js/main.js"></script>
+
+
+
+
 
 
 
@@ -847,15 +867,12 @@
     <script src="assets/js/meanmenu.min.js"></script>
 
     <script src="assets/js/wow.min.js"></script>
-    <script src="countin/js/jquery.waypoints.min.js"></script>
-    <script src="countin/js/jquery.stellar.min.js"></script>
 
     <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/nice-select.min.js"></script>
 
     <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="countin/js/main.js"></script>
 
     <script src="assets/js/jarallax.min.js"></script>
 
